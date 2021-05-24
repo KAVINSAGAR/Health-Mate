@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/idday1"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Day 1"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday2"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/idday1"
+            android:gravity="center"
+            android:text="Day 2"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday3"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday2"
+            android:text="Day 3"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday4"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday3"
+            android:text="Day 4"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday5"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday4"
+            android:text="Day 5"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday6"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday5"
+            android:text="Day 6"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday7"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday6"
+            android:text="Day 7"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday8"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday7"
+            android:text="Day 8"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday9"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday8"
+            android:text="Day 9"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday10"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday9"
+            android:text="Day 10"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday11"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday10"
+            android:text="Day 11"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday12"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday11"
+            android:text="Day 12"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday13"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday12"
+            android:text="Day 13"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/idday14"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_toRightOf="@id/idday13"
+            android:text="Day 14"
+            android:textColor="@color/lightcolor"
+            android:textSize="25dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+</HorizontalScrollView>

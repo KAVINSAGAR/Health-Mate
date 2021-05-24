@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0FFF0"
+    tools:context=".MedicineActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Know Your Medicine"
+            android:gravity="center"
+            android:textSize="38dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="45dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/edittext"
+            android:hint="Search"
+            android:background="@drawable/searchborder"
+            android:drawableLeft="@drawable/search"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="80dp"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recyclerView"
+            android:background="@drawable/outerround"
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:scrollbars="vertical"/>
+    </RelativeLayout>
+
+
+
+
+
+
+    <!--com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="abcdefghijklmnopqrstuvwxyz"
+        android:textSize="25dp"
+        app:trimExpandedText="@string/read_more"
+        app:trimCollapsedText="@string/read_less"
+        app:trimMode="trimModeLength"
+        app:trimLength="20"
+        app:colorClickableText="#000"/-->
+</LinearLayout>

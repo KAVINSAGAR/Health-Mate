@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Report">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/bt2_bg"
+            android:gravity="center_horizontal"
+            android:padding="18dp"
+            android:text="REPORT"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="102dp"
+            android:layout_marginEnd="33dp"
+            android:layout_marginBottom="180dp"
+            android:background="#f1f1f1">
+            <!--Table heading-->
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="NAME"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_age"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="AGE"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_age"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="GENDER"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_gender"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="DATE"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_doq"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="DAY OF QUARANTINE"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_doq"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_symp"
+                    android:layout_width="0dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15dp"
+                    android:text="SYMPTOMS"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_symp"
+                    android:layout_width="0dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_temp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="TEMPERATURE"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_temp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_oxy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text="OXYGEN LEVEL"
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/rep_user_oxy"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="15dp">
+
+                </TextView>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/rep_res"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginHorizontal="1dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_weight="4"
+                    android:background="@android:color/white"
+                    android:padding="15sp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="18dp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="60dp"
+            android:text="Alert : "
+            android:textColor="#FF0000"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="570dp"
+            android:layout_marginLeft="120dp"
+            android:text="Consult a Dcotor"
+            android:textColor="#000"
+            android:textSize="20dp"
+            />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

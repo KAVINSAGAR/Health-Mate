@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Health Mate</string>
+    <string name="ques_one">Mention your Oxygen level (Note: Measure using oximeter)</string>
+    <string name="ques_two">Mention your Temperature (Note: Measure using Thermometer)</string>
+    <string name="ques_three">Choose the current symptoms</string>
+
+    <string-array name="names">
+        <item>Choose One</item>
+        <item>Salem</item>
+        <item>Coimbatore</item>
+        <item>Trichy</item>
+        <item>Madhurai</item>
+        <item>Chennai</item>
+        <item>Karur</item>
+        <item>Namakkal</item>
+        <item>Coimbatore</item>
+        <item>Kanyakumari</item>
+        <item>Thirunelveli</item>
+        <item>Erode</item>
+
+
+    </string-array>
+</resources>

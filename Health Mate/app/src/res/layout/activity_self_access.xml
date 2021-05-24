@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:padding="16dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="0dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bt2_bg"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="SELF-ANALYSIS"
+            android:textColor="@android:color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="472dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/bt2_bg">
+
+            <TextView
+                android:id="@+id/per"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="412dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:text="PERSONAL DETAILS"
+                android:textColor="@android:color/black"
+                android:textSize="18dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-625dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="366dp"
+                android:padding="5dp"
+                android:text="NAME"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-580dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="320dp"
+                android:background="@drawable/et_bg"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-520dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="268dp"
+                android:padding="5dp"
+                android:text="AGE"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/input_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-480dp"
+
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="224dp"
+                android:background="@drawable/et_bg"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-420dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="172dp"
+                android:padding="5dp"
+                android:text="GENDER"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/input_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-390dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="131dp"
+                android:background="@drawable/et_bg"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-320dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="78dp"
+                android:padding="5dp"
+                android:text="DAY OF QUARANTINE"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/input_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="-280dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="33dp"
+                android:background="@drawable/et_bg"
+                android:padding="12dp"
+                android:textColor="@android:color/black"
+                android:textSize="15dp">
+
+            </EditText>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/bt2_bg">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:padding="5dp"
+                android:text="SURVEY"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="18dp">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:padding="5dp"
+                android:textSize="15dp"
+                android:textColor="@android:color/black"
+                android:text="@string/ques_one">
+
+            </TextView>
+            <EditText
+                android:id="@+id/input_oxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="125dp"
+                android:padding="12dp"
+                android:layout_marginEnd="5dp"
+                >
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="195dp"
+                android:textSize="15dp"
+                android:padding="5dp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/ques_two">
+
+            </TextView>
+            <EditText
+                android:id="@+id/input_temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="244dp"
+                android:padding="12dp"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                >
+
+            </EditText>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="320dp"
+                android:textColor="@android:color/black"
+                android:layout_marginStart="5dp"
+                android:textSize="15dp"
+                android:layout_marginEnd="5dp"
+                android:text="@string/ques_three">
+            </TextView>
+
+            <CheckBox
+                android:id="@+id/one"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="370dp"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="  Dry Cough" />
+
+            <CheckBox
+                android:id="@+id/two"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="370dp"
+                android:layout_marginEnd="150dp"
+                android:background="@drawable/et_bg"
+                android:text="  Fever" />
+
+            <CheckBox
+                android:id="@+id/three"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="370dp"
+                android:layout_marginEnd="27dp"
+                android:background="@drawable/et_bg"
+                android:text="  Body Pain" />
+
+            <CheckBox
+                android:id="@+id/six"
+                android:layout_width="119dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/et_bg"
+                android:text="  Sore throat" />
+
+            <CheckBox
+                android:id="@+id/seven"
+                android:layout_width="111dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="450dp"
+                android:layout_marginEnd="137dp"
+                android:background="@drawable/et_bg"
+                android:text="  Diarrhoea" />
+
+            <CheckBox
+                android:id="@+id/eight"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="450dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/et_bg"
+                android:text="  Head ache" />
+
+            <CheckBox
+                android:id="@+id/four"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="410dp"
+                android:background="@drawable/et_bg"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:text="  Loss of taste" />
+
+
+            <CheckBox
+                android:id="@+id/five"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="410dp"
+                android:layout_marginEnd="73dp"
+                android:background="@drawable/et_bg"
+                android:text="  Loss of smell" />
+
+            <CheckBox
+                android:id="@+id/nine"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/et_bg"
+                android:text="  Difficulty in breathing" />
+
+            <CheckBox
+                android:id="@+id/ten"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/et_bg"
+                android:text="  None of these" />
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="540dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/et_bg"
+                android:text="Submit">
+
+            </Button>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="300dp"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
